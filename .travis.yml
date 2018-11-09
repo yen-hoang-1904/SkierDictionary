@@ -6,5 +6,5 @@ before_install:
 install:
   npm install  
 script: 
-  -grunt
-  -grunt watch
+  _grunt
+  _grunt watch
