@@ -7,4 +7,10 @@ install:
   npm install  
 script: 
   - grunt
-  - grunt watch
+deploy:
+  provider: pages
+  skip-cleanup: true
+  github-token:af4797f2b900a9012d3d1fba393b598de125c290 
+  keep-history: true
+  on: 
+    branch: development
