@@ -7,7 +7,6 @@ install:
   npm install  
 script: 
   - grunt
-  - npm test
 deploy:
   provider: pages
   skipscleanup: true
