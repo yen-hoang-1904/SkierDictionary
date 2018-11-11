@@ -8,3 +8,10 @@ install:
 script: 
   - grunt
   - npm test
+deploy:
+  provider: pages
+  skipscleanup: true
+  githubtoken: 24b5e493912508e6e79690b8828c808a10087b73 
+  keephistory: true
+  on:
+    branch: master
