@@ -9,7 +9,7 @@
     "postdebug": "node-inspector & node --debug app",
     "start": "node app",
     "predev": "grunt",
-    "dev": "open http://localhost:3000 & node-dev app & grunt watch"
+    "dev": "open http://localhost:3000 & node-dev app & grunt watch",
     "test" "mocha"
   },
   "keywords": [
